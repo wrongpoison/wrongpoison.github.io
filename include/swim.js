@@ -18,7 +18,7 @@ $(function(){
 
 var fishScene = new ScrollMagic.Scene({
 	triggerElement: "#pinned-trigger1", //point of execution
-	//duration: $(".wrapper").width(), ///pin element for width
+	duration: $("#wrapper").width(), ///pin element for width
 	revers: true //allow effect to trigger in reversed direction (backwards)
 })
 .setPin(fish)
