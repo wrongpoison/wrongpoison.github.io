@@ -1,0 +1,26 @@
+/*font-family: 'Poiret One', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Bitter', serif;*/
+
+h1{
+	font-family: 'Poiret One', cursive;
+}
+
+h2{
+	font-family: 'Josefin Slab', serif;
+}
+
+h3{
+	font-family: 'Quicksand', sans-serif;
+	
+}
+
+li{
+	font-family: 'Raleway', sans-serif;
+}
+
+footer{
+	font-family: 'Bitter', serif;
+}
