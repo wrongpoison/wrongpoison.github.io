@@ -11,8 +11,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
-   id="svg5658"
+   viewBox="0 0 500 700"
+   id="pill-bottle"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="pill bottle.svg">
@@ -48,64 +48,66 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
+  <g class="pill-bottle">
     <g
-       id="g6323"
-       transform="translate(-0.00511169,0)">
-      <path
+       inkscape:label="Layer 1"
+       inkscape:groupmode="layer"
+       id="layer1">
+      <g
+         id="g6323"
+         transform="translate(-0.00511169,0)">
+        <path class="bottle-body"
+           inkscape:connector-curvature="0"
+           id="rect6206"
+           d="m 201.02105,355.35734 0,569.72657 0.50976,0 a 200,82.832497 0 0 0 -0.50976,4.22265 200,82.832497 0 0 0 200,82.83204 200,82.832497 0 0 0 200,-82.83204 200,82.832497 0 0 0 -0.36133,-4.22265 l 0.36133,0 0,-569.72657 -400,0 z"
+           style="opacity:1;fill:#dc6600;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <ellipse class="bottle-inside"
+           ry="82.832497"
+           rx="200"
+           cy="353.33667"
+           cx="400.02042"
+           id="path6210-6-6"
+           style="opacity:1;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="lid"
+         transform="translate(703.06617,20.20305)">
+        <ellipse
+           ry="90.913719"
+           rx="245.45686"
+           cy="330.80878"
+           cx="-304.05588"
+           id="path6210-6-2"
+           style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <ellipse
+           ry="82.832497"
+           rx="200"
+           cy="292.72754"
+           cx="-304.05588"
+           id="path6210-6-27"
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           ry="2.03989e-006"
+           y="195.75287"
+           x="-504.05588"
+           height="100"
+           width="400"
+           id="rect6262"
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <ellipse
+           ry="82.832497"
+           rx="200"
+           cy="199.79346"
+           cx="-304.05588"
+           id="path6210-6"
+           style="opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <path class="label"
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 200.50542,523.04224 c 136.23539,57.90515 269.16598,49.71414 400.02041,0 l 0,0 0,262.63967 0,10e-6 c -127.9992,72.1026 -261.24641,73.35715 -400.02041,0 l 0,-10e-6 z"
+         id="rect6327"
          inkscape:connector-curvature="0"
-         id="rect6206"
-         d="m 201.02105,355.35734 0,569.72657 0.50976,0 a 200,82.832497 0 0 0 -0.50976,4.22265 200,82.832497 0 0 0 200,82.83204 200,82.832497 0 0 0 200,-82.83204 200,82.832497 0 0 0 -0.36133,-4.22265 l 0.36133,0 0,-569.72657 -400,0 z"
-         style="opacity:1;fill:#dc6600;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <ellipse
-         ry="82.832497"
-         rx="200"
-         cy="353.33667"
-         cx="400.02042"
-         id="path6210-6-6"
-         style="opacity:1;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         sodipodi:nodetypes="cccccccc" />
     </g>
-    <g
-       id="g6317"
-       transform="translate(703.06617,20.20305)">
-      <ellipse
-         ry="90.913719"
-         rx="245.45686"
-         cy="330.80878"
-         cx="-304.05588"
-         id="path6210-6-2"
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <ellipse
-         ry="82.832497"
-         rx="200"
-         cy="292.72754"
-         cx="-304.05588"
-         id="path6210-6-27"
-         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         ry="2.03989e-006"
-         y="195.75287"
-         x="-504.05588"
-         height="100"
-         width="400"
-         id="rect6262"
-         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <ellipse
-         ry="82.832497"
-         rx="200"
-         cy="199.79346"
-         cx="-304.05588"
-         id="path6210-6"
-         style="opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <path
-       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 200.50542,523.04224 c 136.23539,57.90515 269.16598,49.71414 400.02041,0 l 0,0 0,262.63967 0,10e-6 c -127.9992,72.1026 -261.24641,73.35715 -400.02041,0 l 0,-10e-6 z"
-       id="rect6327"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
   </g>
 </svg>

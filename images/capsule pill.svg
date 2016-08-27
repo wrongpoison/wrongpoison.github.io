@@ -52,12 +52,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
+    <path id="red-half"
        style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 273.78516,457.50586 0,274.28516 0,1.42773 0.14062,0 A 130.3631,131.42857 0 0 0 403.72461,854.64844 130.3631,131.42857 0 0 0 533.62109,733.21875 l 0.16407,0 0,-1.42773 0,-274.28516 -260,0 z"
        id="rect4786"
        inkscape:connector-curvature="0" />
-    <path
+    <path id="blue-half"
        style="opacity:1;fill:#0044aa;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 403.72461 53.791016 A 130.3631 131.42857 0 0 0 274.18164 173.07617 L 273.78516 173.07617 L 273.78516 176.64844 L 273.78516 448.79102 L 533.78516 448.79102 L 533.78516 176.64844 L 533.78516 173.07617 L 533.375 173.07617 A 130.3631 131.42857 0 0 0 403.72461 53.791016 z "
        id="path4788" />
