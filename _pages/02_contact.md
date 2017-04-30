@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-My e-mail is [redtsevi@gmail.com](mailto:redtsevi@gmail.com).
+My e-mail is [mbavlsik@gmail.com](mailto:mbavlsik@gmail.com).
