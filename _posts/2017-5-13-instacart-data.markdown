@@ -6,7 +6,8 @@ categories: instacart, data
 ---
 Full disclosure: this post is a riff off of [3 Million Instacart Orders, Open Sourced](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2).
 
-You can grab a PDF [here]({{ site.url }}/assets/most_popular_items_ordered.pdf)
+I made a graph of the most popular items sold: 
+![Most popular products]({{ site.url }}/assets/most_popular_items_ordered.pdf)
 
 And a list of the 50 most popular items:
 | Item                                 | Quantity Ordered |
