@@ -4,6 +4,8 @@ title:  "Gone Girl"
 date:   2017-05-6 21:30:13 -0600
 categories: gone girl, movies, strong female protagonist
 ---
+*Gone Girl* is, without a doubt, one of my favorite movies. I find the protagonist, Amy, uncomfortably relatable. But wait! Hear me out before you run off, far away from the crazy woman. I think the film draws on themes that are exceptionally relevant to human identity, regardless of our individual capacities for violence.
+
 >Nick never loved me. He loved a girl who doesn't exist. A girl I was pretending to be. The Cool Girl. Men always use that as the defining compliment, right? She’s a cool girl.
 >Being Cool Girl means I am a hot, brilliant, funny woman who adores football, poker and dirty jokes, who plays videogames and chugs beer--loves threesomes and anal sex and jams chilidogs into my mouth like I’m hosting the world's biggest culinary gang-bang--while remaining a size 2, because cool girls are above all hot.
 >Hot and understanding. Cool girls never get angry at their men, they only smile in a chagrined, loving manner. Go ahead! Shit on me, I don't mind, I'm the cool girl.
