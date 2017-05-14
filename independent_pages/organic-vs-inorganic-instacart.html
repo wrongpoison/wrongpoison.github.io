@@ -1,0 +1,55 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+        ['ID',   'Organic',    'Non-Organic',     'Aisle', 'Included in Total Orders'],
+        ['strawberries', 264683,  142951,      'Fresh Fruits',   407634],
+        ['baby spinach', 241921,  23129,      'Europe',         81902307],
+        ['hass avocado', 213584,  50221,      'Europe',         263805],
+        ['lemon',        87746,   152657,      'Middle East',     240403],
+        ['whole milk',   137905,  35633,         'Europe',        173538],
+        ['yellow onion', 113426,  73167,       'Middle East',    186593],
+        ['garlic',       109778,  36617,      'Middle East',    146395],
+        ['blueberries',  100060,  55946,      'Middle East',    156006],
+        ['honeycrisp apple',85020, 79769,      'Europe',         164789],
+        ['gala apple',   72846,   24086,      'North America',  96932],
+        ['cilantro',     69524,   45530,      'North America',  115054],
+        ['red onion',  66986,   43009,      'North America',  109995],
+        ['blackberries',  61746,   22275,      'North America',  84021],
+        ['granny smith apple',  58779,   36187,      'North America',  94966],
+        ['red bell pepper',  57485,   55280,      'North America',  112765],
+        ['ginger',  52087,   24130,      'North America',  76217],
+        ['reduced fat 2% milk',  47839,   37091,      'North America',  84930],
+        ['jalapenos',  20262,   42561,      'North America',  62823],
+        ['bartlett pear',  37706,   35413,      'North America',  73119],
+        ['russet potato',  32534,   29313,      'North America',  61847],
+        ['unsalted butter',  21509,   35667,      'North America',  57176],
+        ['russet potato',  32534,   29313,      'North America',  61847],
+        ['fat free milk',  26591,   29345,      'North America',  55936],
+        ['sour cream',  26691,   21540,      'North America',  48231],
+        ['heavy whipping cream',  24664,   20684,      'North America',  45348]
+        ]);
+
+ var options = {
+        title: 'Correlation between life expectancy, fertility rate ' +
+               'and population of some world countries (2010)',
+        hAxis: {title: 'Life Expectancy'},
+        vAxis: {title: 'Fertility Rate'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="series_chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+
+</html>
