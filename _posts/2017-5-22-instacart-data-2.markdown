@@ -10,7 +10,7 @@ This time I wanted to get a bit fancier, so I decided to install Pandas, a Pytho
 First off, I decided to compare the items that users were ordering for the first time to those that they had ordered previously.
 
 | Reordered       		| First Order      |
-|-----------------------|------------------|
+|:----------------------|-----------------:|
 | 619141          		| 429434           |
 
 The largest order in the set is one that contains 127 items.
@@ -18,7 +18,7 @@ The largest order in the set is one that contains 127 items.
 The most popular departments are as follows:
 
 | Department      		| Items Ordered    |
-|-----------------------|------------------|
+|:----------------------|-----------------:|
 | personal care   		| 152978           |
 | snacks          		| 141200           |
 | pantry          		| 128165           |
@@ -27,7 +27,7 @@ The most popular departments are as follows:
 The most popular aisles are:
 
 | Aisles                           		| Items Ordered    |
-|---------------------------------------|------------------|
+|:--------------------------------------|-----------------:|
 | candy chocolate                  		| 30368            |
 | packaged cheese                  		| 27854            |
 | salad dressing toppings          		| 25908            |
