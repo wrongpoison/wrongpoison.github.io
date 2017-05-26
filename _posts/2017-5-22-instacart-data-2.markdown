@@ -6,11 +6,11 @@ categories: instacart, data
 ---
 This time I wanted to get a bit fancier, so I decided to install Pandas, a Python library and see what I could do.
 
-## Baby Steps and Tables
+### Baby Steps and Tables
 First off, I decided to compare the items that users were ordering for the first time to those that they had ordered previously.
 
 | Reordered       		| First Order      |
-|:----------------------|-----------------:|
+|:--------------------|-----------------:|
 | 619141          		| 429434           |
 
 The largest order in the set is one that contains 127 items.
