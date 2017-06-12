@@ -1,0 +1,3 @@
+-data can be loaded from YAML, JSON, and CSV (must contain header) files
+-data files accessible by site.data
+  example: _data/members.yml file can be accessed via site.data.members
