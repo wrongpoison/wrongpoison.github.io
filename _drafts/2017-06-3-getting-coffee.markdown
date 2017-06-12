@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I just want my coffee"
+title:  "I just want my coffee: A Design Opportunity"
 date:   2017-06-3 13:32:00 -0600
 categories: design coffee
 ---
@@ -10,4 +10,7 @@ I've spent the last five days in SANS training, and though it's been absolutely 
 I start by grabbing a cup. That's easy enough. Then, I must discover which container holds the coffee--improper selection leads to either bland hot water or worthless decaf. Once I've filled my cup, I need to navigate to the creams and sugars and stirrers. The colors of sweeteners are standardized, so I can be reasonably certain that I want two or three yellows. Milk can sometimes be trickier. Cream choices don't seem to be consistently offered. There's usually a half-and-half, and often a milk variant (skim, whole, two percent), and sometimes soy or almond. To make things worse, these options look almost identical.
 
 ### Stipulations
-Ideally, these coffee serving stations should be quickly accessible to a multitude of people, one after another, First-In-First-Out.
+Ideally, these coffee serving stations should be quickly accessible to a multitude of people, one after another, First-In-First-Out. Get cup, get coffee, put stuff in, go away. Stations need to be able to accommodate users who show up bare-handed, but also those who come with their own cups. Ideally, the station ought to be laid out in a way that encourages or enforces cleanliness and limits waste.
+
+
+### [x]

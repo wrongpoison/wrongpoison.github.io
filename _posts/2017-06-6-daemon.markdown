@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Occasional Questions: What's a Daemon?"
+date:   2017-06-5 13:32:00 -0600
+categories: questions daemon etymology tech
+---
+I've been dabbling in the Linux world lately. I work with Splunk a fair amount, and, after SEC401, those command lines don't seem quite as intimidating anymore. One recurring curiosity is the word *daemon*. I had a casual understanding of what it was, but I found that the name itself was what really piqued my interest.
+
+#### What is a "daemon"?
+"Daemon" refers to a computer program that runs as a background process, rather than being under the immediate control of an interactive user (thanks [wikipedia](https://en.wikipedia.org/wiki/Daemon_(computing)). Daemons appear when discussing multitasking functionalities in computer processing.
+
+#### Non-Linux Platforms
+In Windows NT, *services* provide the same functionality as daemons. Likewise, *started tasks* are the equivalent in z/OS. Windows services run as background processes. They may be manually configured, started, or stopped using PowerShell, `net start` or `net stop` commands, Task Manager, or the Services GUI. Any Windows application (not just services) can perform the role of a daemon (a daemonic role?) and some Windows daemons have the option of running as a normal process.
+
+#### Word Origin
+Dæmon comes from the Latin word for the Ancient Greek [daimōn](http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095657922) (δαίμων), meaning divider or alotter from Homer onward. The word refers to mythological creatures in ancient Greek and later Hellenistic religion. Gods could be daemons, but so could the incorporeal remnants of great men. Daemons can be harmless and beneficent (like a well-intentioned Zeus), or malicious (such as Lamia or [Clement](http://buffy.wikia.com/wiki/Clement)). ![Clem]({{ site.url }}/assets/Clem_2.jpg){: .center-image }
+
+A group of programmers in [MIT's Project MAC](https://en.wikipedia.org/wiki/MIT_Computer_Science_and_Artificial_Intelligence_Laboratory#Project_MAC) borrowed the name from [Maxwell's Demon](https://www.auburn.edu/~smith01/notes/maxdem.htm), a thought experiment that toys with the [second law of thermodynamics](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics). The demon in this case simply monitors molecules--a relatively inoffensive act--and serves as an obedient actor.
+
+In *The Unix System Administration Handbook*, Evi Nementh states the following:
+> Many people equate the word "daemon" with the word "demon,"" implying some kind of Satanic connection between UNIX and the underworld. This is an egregious misunderstanding. "Daemon" is actually a much older form of "demon"; daemons have no particular bias towards good or evil, but rather serve to help define a person's character or personality. The ancient Greeks' concept of a "personal daemon" was similar to the modern concept of a "guardian angel" -- "eudaemonia" is the state of being helped or protected by a kindly spirit. As a rule, UNIX systems seem to be infested with both daemons and demons.
+
+All of this leads to the issue of pronunciation. When referencing mythological beings of some sort, either *DEE-mən* or *DAY-mən* is acceptable. The same more or less goes for the computer program. The group that coined the word pronounced it as *DEE-mən*, but there has been some drift to the more archaic pronunciation, *DAY-mən*. However, since there will always be controversy over the names of things, I'd advise readers to go with whichever pronunciation makes them more personally content. After all, if there are [entire websites](http://howtoreallypronouncegif.com/) about how to pronounce *gif*, I'd say we're all damned. Good thing we've got those nice daemons.
