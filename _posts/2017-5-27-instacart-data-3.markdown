@@ -14,7 +14,7 @@ Anyway. I went back to basics. I'm using the main training set for most of my an
 #### What's the most popular product?
 
 | Product ID | Product       		| Orders    |
-|------------|-------------------|-----------|
+|------------|-------------------|----------:|
 | 24852 | Banana | 15450    |
 | 13176 | Bag of Organic Bananas      | 12409    |
 | 21137 | Organic Strawberries           | 8528    |
