@@ -12,13 +12,14 @@ I'm not exactly sure what I'm doing. Once I transitioned from excel to python an
 Anyway. I went back to basics. I'm using the main training set for most of my analysis, since it has data on the products that compose specific orders. I think this set can also be correlated (by order ID) to order data that contains the time of day or day of the week. The main training set provided has 104,042 individual orders of 34449 different products.
 
 #### What's the most popular product?
+
 | Product ID | Product       		| Orders    |
 |------------|-------------------|-----------|
 | 24852 | Banana | 15450    |
 | 13176 | Bag of Organic Bananas      | 12409    |
 | 21137 | Organic Strawberries           | 8528    |
 | 21903 | Organic Baby Spinach           | 7852    |
-| 47209 | Organic Hass Avocado            | 6857    |
+| 47209 | Organic Hass Avocado            | 6857   |
 | 47766 | Organic Avocado            | 5646    |
 | 47626 | Large Lemon           | 4928    |
 | 16797 | Strawberries           | 4587    |
