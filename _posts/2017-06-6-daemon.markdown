@@ -7,7 +7,7 @@ categories: questions daemon etymology tech
 I've been dabbling in the Linux world lately. I work with Splunk a fair amount, and, after SEC401, those command lines don't seem quite as intimidating anymore. One recurring curiosity is the word *daemon*. I had a casual understanding of what it was, but I found that the name itself was what really piqued my interest.
 
 #### What is a "daemon"?
-"Daemon" refers to a computer program that runs as a background process, rather than being under the immediate control of an interactive user (thanks [wikipedia](https://en.wikipedia.org/wiki/Daemon_(computing)). Daemons appear when discussing multitasking functionalities in computer processing.
+"Daemon" refers to a computer program that runs as a background process, rather than being under the immediate control of an interactive user (thanks [wikipedia](https://en.wikipedia.org/wiki/Daemon_(computing) )). Daemons appear when discussing multitasking functionalities in computer processing.
 
 #### Non-Linux Platforms
 In Windows NT, *services* provide the same functionality as daemons. Likewise, *started tasks* are the equivalent in z/OS. Windows services run as background processes. They may be manually configured, started, or stopped using PowerShell, `net start` or `net stop` commands, Task Manager, or the Services GUI. Any Windows application (not just services) can perform the role of a daemon (a daemonic role?) and some Windows daemons have the option of running as a normal process.
