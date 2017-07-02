@@ -7,6 +7,6 @@ categories: eytymology
 
 It all started because I was curious about the origin of the word *neophyte,* someone who is new to a subject, a bit like a tyro[^1].
 
-I grabbed a list of words ending in -phyte from [wiktionary](https://en.wiktionary.org/wiki/Category:English_words_suffixed_with_-phyte).
+I grabbed a list of words ending in -phyte from [wiktionary](https://en.wiktionary.org/wiki/Category:English_words_suffixed_with_-phyte) and grabbed an unabridged dictionary from [Project Gutenberg]
 
 [^1]: (Latin) A beginner or a novice
