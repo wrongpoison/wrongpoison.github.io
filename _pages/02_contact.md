@@ -5,3 +5,5 @@ permalink: /contact/
 ---
 
 My e-mail is [mbavlsik@gmail.com](mailto:mbavlsik@gmail.com).
+
+[Another Puppy]({{ site.url }}/assets/fancy_snoot.jpg){: .center-image }
