@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Notes from DefCon"
+date:   2018-08-11 9:16:00 -0500
+categories: defcon hacking
+---
+
+I recently went to [DefCon][defcon] and was thoroughly overwhelmed with all the people and content. In an effort to capture a portion of the awesomeness there and alleviate my massive FOMO, I've tried to collect some of the tools and info presented.
+
+![DefCon felt weirdly like this]({{ site.url }}/assets/modern-workshop4.jpg){: .center-image }
+
+* [ADRecon][adrecon]: extracts Active Directory information in a format that can be formatted in excel; uses RSAT (Remote Server Administration Tools)
+* [Angad][angad] : malware detection framework using multi-dimensional visualization (unfortunately, the documentation seems to be a bit sparse)
+* [Archery][archery]: open source vulnerability assessment and management
+* [Chiron][chiron]: a home-based machine learning intrusion detection system, based on the ELK stack
+* [Cloud Security Suite][cs-suite]: a tool for auditing AWS and GCP security infrastructure 
+* [Conformer][conformer]: penetration testing tool for automated password guessing for different web portals
+* [Deja Vu][dejavu]: an open source deception framework
+* [EapHammer][eaphammer]: targeted evil twin attacks against WPA2 enterprise networks
+* [GreyNoise][greynoise]: "anti-threat intelligence" providing information about bots, crawlers, and other devices that scan a wide range of devices connected to the internet
+* [Honeycomb][honeycomb]: an open source, extensible honeypot framework
+* [IOC2RPZ][ioc2rpz]: custom DNS server which automatically converts indicators of compromise (IoC) into DNS response policy zones (RPZ) feeds which can be used to protect users from known malicious domains, IP addresses, or nameservers (for more information on RPZ, check out https://dnsrpz.info/)
+* [Local Sheriff][localsheriff]: a WebExtension used to identify PII being shared or leaked to third-parties
+* [TrackerJacker][trackerjacker]: maps and tracks wifi networks and devices through raw 802.11 monitoring
+* [WiPi Hunter][wipihunter]: a framework to identify malicious WiFi activity
+
+For access to the full DefCon Media Server, go [here][defcon-media].
+
+
+[adrecon]: https://github.com/sense-of-security/ADRecon
+[angad]: https://github.com/7h3rAm/angad
+[archery]: https://archerysec.info/
+[chiron]: https://github.com/jzadeh/chiron-elk
+[cs-suite]: https://securityftw.github.io/
+[conformer]: https://github.com/mikhbur/conformer
+[defcon]: https://www.defcon.org/
+[defcon-media]:https://media.defcon.org/DEF%20CON%2026/
+[dejavu]: https://github.com/bhdresh/Dejavu
+[eaphammer]: https://github.com/s0lst1c3/eaphammer
+[greynoise]: https://greynoise.io/
+[honeycomb]: https://github.com/Cymmetria/honeycomb
+[ioc2rpz]: https://github.com/Homas/ioc2rpz
+[localsheriff]: https://github.com/cliqz-oss/local-sheriff
+[trackerjacker]: https://github.com/calebmadrigal/trackerjacker
+[wipihunter]: https://github.com/WiPi-Hunter
