@@ -1,0 +1,78 @@
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>LoL Armor v Attack Damage</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            <div class="bk-root" id="5b84f541-9c90-4811-a551-94a78b74aef4"></div>
+          
+        
+      
+      
+        <script type="application/json" id="62ec744a-8bc2-4c28-bcb5-55d99862fcd2">
+          {"27b701de-00f9-4d12-8bdc-4784275f6f48":{"roots":{"references":[{"attributes":{"below":[{"id":"ba0fc93e-8275-4073-ad43-e02c01250c4d","type":"LinearAxis"}],"left":[{"id":"02615aa1-fd6b-4b04-93ed-dd11df055b66","type":"LinearAxis"}],"renderers":[{"id":"ba0fc93e-8275-4073-ad43-e02c01250c4d","type":"LinearAxis"},{"id":"dc88ae8c-e559-450b-8c82-57c895924cbc","type":"Grid"},{"id":"02615aa1-fd6b-4b04-93ed-dd11df055b66","type":"LinearAxis"},{"id":"5f6b2d68-2ea7-4a90-95cf-6986b3ea9250","type":"Grid"},{"id":"bd041e57-ebb9-4009-bb2b-2d3f100a7ac2","type":"BoxAnnotation"},{"id":"faea18c5-4945-4679-a94b-a1e41cfbe82d","type":"GlyphRenderer"}],"title":{"id":"a1e15a4b-08c3-4218-9a92-5e649d46f388","type":"Title"},"toolbar":{"id":"a9a93f93-65f7-4d3f-9759-dfe0ed30661c","type":"Toolbar"},"x_range":{"id":"ecba5f23-4117-4aaf-bf38-003d3e390354","type":"DataRange1d"},"x_scale":{"id":"2904fed7-b092-4f7f-a38c-13b99e1a7e23","type":"LinearScale"},"y_range":{"id":"24796599-f40f-4688-a3ea-9e12b32dc48f","type":"DataRange1d"},"y_scale":{"id":"43d9c53b-591b-4dab-ae4e-821d9f2260df","type":"LinearScale"}},"id":"824eff97-a3e9-478d-a027-7f4a83648614","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"4e46195e-ce3d-4296-a46b-17c3e9bdd304","type":"WheelZoomTool"},{"attributes":{},"id":"2904fed7-b092-4f7f-a38c-13b99e1a7e23","type":"LinearScale"},{"attributes":{"plot":{"id":"824eff97-a3e9-478d-a027-7f4a83648614","subtype":"Figure","type":"Plot"},"ticker":{"id":"68480e0d-c262-4a8f-80d6-bc62ca956f64","type":"BasicTicker"}},"id":"dc88ae8c-e559-450b-8c82-57c895924cbc","type":"Grid"},{"attributes":{},"id":"ebf5d150-8572-4490-b838-b0186c16282b","type":"UnionRenderers"},{"attributes":{},"id":"43d9c53b-591b-4dab-ae4e-821d9f2260df","type":"LinearScale"},{"attributes":{},"id":"1acaa12b-7a4e-4814-a2d8-57049d5ca8a9","type":"BasicTickFormatter"},{"attributes":{"callback":null},"id":"24796599-f40f-4688-a3ea-9e12b32dc48f","type":"DataRange1d"},{"attributes":{"dimension":1,"plot":{"id":"824eff97-a3e9-478d-a027-7f4a83648614","subtype":"Figure","type":"Plot"},"ticker":{"id":"e5f8607b-6eed-4f60-bd18-c59b27109dae","type":"BasicTicker"}},"id":"5f6b2d68-2ea7-4a90-95cf-6986b3ea9250","type":"Grid"},{"attributes":{},"id":"0befad95-51bb-41fe-a8db-1988710956c9","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"97ae2f7b-aafb-4b04-84f3-1dfe4a8a2128","type":"PanTool"},{"id":"4e46195e-ce3d-4296-a46b-17c3e9bdd304","type":"WheelZoomTool"},{"id":"c99fa783-8c0b-46f0-a2f3-2c27c7c69121","type":"BoxZoomTool"},{"id":"081cf5aa-7d7a-4c62-a3d1-0bdc5d11a1bf","type":"SaveTool"},{"id":"bb98c16f-5b2b-4c24-a9bc-1462f4777241","type":"ResetTool"},{"id":"8c461756-76d9-4eb5-9149-dade3784cca5","type":"HelpTool"},{"id":"019a6fac-770c-404a-b8bd-7615d50a897a","type":"HoverTool"}]},"id":"a9a93f93-65f7-4d3f-9759-dfe0ed30661c","type":"Toolbar"},{"attributes":{},"id":"8c461756-76d9-4eb5-9149-dade3784cca5","type":"HelpTool"},{"attributes":{"callback":null,"data":{"armor":{"__ndarray__":"/Knx0k1iOEDhehSuR+E0QOF6FK5HYTpA4XoUrkdhOEAlBoGVQ4s3QLgehetRODVAuB6F61E4M0CDwMqhRTY1QAAAAAAAADNACtejcD0KM0AAAAAAAAA5QOF6FK5HYThA4XoUrkfhNUC4HoXrUbg6QOF6FK5H4TZAAAAAAAAAOkAAAAAAAAA5QOF6FK5H4TxA4XoUrkdhN0AAAAAAAAA+QD81XrpJDDpA4XoUrkfhOkAlBoGVQ4s5QAAAAAAAADtAVOOlm8QgNkAAAAAAAIA6QOF6FK5H4TVA4XoUrkfhNEAAAAAAAAA4QLbz/dR4aTZA4XoUrkfhOkAAAAAAAAA6QPCnxks3iTtAAAAAAAAAN0A/NV66SQw6QMdLN4lBYDhAuB6F61G4OkAK16NwPQozQAAAAAAAADpAzczMzMxMOUAAAAAAAAA2QPyp8dJNYjNAAAAAAAAAPUAK16NwPQo7QOF6FK5HYTZAAAAAAAAANEDhehSuR+E2QFCNl24SAzNA/Knx0k1iNEDhehSuR+E0QMdLN4lBYDdA4XoUrkfhO0DhehSuR+E6QM3MzMzMTDhAAAAAAAAAO0AAAAAAAAA0QAAAAAAAADpA4XoUrkfhM0DhehSuR+E1QJ7vp8ZLNzhAaJHtfD81O0Ce76fGSzc0QArXo3A9CjhAnu+nxks3M0C4HoXrUbgyQM3MzMzMTDxAAAAAAAAANEC4HoXrUbg8QArXo3A9CjhACtejcD0KOEDhehSuR+E4QAAAAAAAADRA/Knx0k1iOUC4HoXrUbgzQOF6FK5H4ThA9ihcj8J1OkDhehSuR+E2QOF6FK5H4TpA4XoUrkdhOkAK16NwPQo6QArXo3A9CjFA9P3UeOmmO0AAAAAAAAA9QOF6FK5HYTdA/Knx0k1iP0AAAAAAAAA4QC/dJAaBlTlA4XoUrkfhOUDHSzeJQWA4QOF6FK5H4TlAWmQ730+NNUAK16NwPYo9QOF6FK5H4ThAAAAAAAAAOUBU46WbxKA7QOF6FK5H4TtACtejcD0KN0D2KFyPwjU2QPyp8dJNYj1AJQaBlUOLNED8qfHSTWI3QLgehetRuDZAg8DKoUW2OEAAAAAAAAA7QAAAAAAAADRA4XoUrkfhOkAAAAAAAAA5QM3MzMzMTDhAAAAAAAAAMEAAAAAAAAA2QPCnxks3iTtAz/dT46UbOECYbhKDwIo0QArXo3A9CjdAuB6F61F4OUAlBoGVQ4s4QIPAyqFFNjdAUI2XbhIDM0DNzMzMzIw2QOF6FK5H4TVA4XoUrkfhOUC4HoXrUbg2QAAAAAAAADdA4XoUrkdhOkDhehSuR+E5QOF6FK5H4TVA4XoUrkfhOUCDwMqhRbY4QAAAAAAAAD5A4XoUrkfhN0DhehSuR+E6QCUGgZVDizVA/Knx0k0iM0AK16NwPQo0QA==","dtype":"float64","shape":[134]},"attack_damage":{"__ndarray__":"46WbxCAwTkCF61G4HoVKQOOlm8QgME1A5x2n6EiOTkD+1HjpJrFKQOOlm8QgsElAFK5H4Xo0SUAbL90kBkFMQAAAAAAAgExAAAAAAAAASkAAAAAAAABKQIXrUbgexU5AhetRuB6FTEDjpZvEILBLQBSuR+F61EpAAAAAAAAAT0AAAAAAAIBKQIcW2c73k05AAAAAAAAATEAAAAAAAABMQIXrUbgehUpAw/UoXI+iTkBmZmZmZuZLQAAAAAAAgEtAhetRuB5FSUBxPQrXo/BKQBSuR+F61EtArkfhehQuSEAAAAAAAABOQIXrUbgeBU1AXI/C9Sj8TkAAAAAAAABMQHE9Ctej8ExAAAAAAACASUBxPQrXo7BOQArXo3A9ak5AAAAAAAAATUD4U+Olm8RLQAAAAAAAAE5AEoPAyqHFTkAAAAAAAABJQO58PzVe+klAQmDl0CLbS0Bcj8L1KPxOQHE9CtejMElAAAAAAACASkB7FK5H4TpNQAAAAAAAgE9AEoPAyqHFSkAUrkfhetRGQJMYBFYObU1AAAAAAAAATUAAAAAAAIBJQBKDwMqhRUlAexSuR+GaS0AAAAAAAABLQAAAAAAAgEtAexSuR+G6TEBxPQrXo3BLQEoMAiuHlk5AhetRuB4FTkD4U+Olm0RJQHsUrkfhukxAyXa+nxovR0ASg8DKocVKQFyPwvUo/E5AAAAAAACAS0ASg8DKocVPQIXrUbgeBU5AAAAAAAAAR0DjpZvEIPBNQAAAAAAAgE5AexSuR+G6S0C0yHa+n5pJQNejcD0Kl01AEoPAyqHFTEAAAAAAAIBKQLTIdr6fmk1AAAAAAACATUA9CtejcP1NQMl2vp8aL0RA8KfGSzfJS0AAAAAAAABMQHsUrkfhOktAcT0K16PwS0Cq8dJNYtBLQESLbOf7KU1AAAAAAAAATkCF61G4HgVMQPhT46WbhE5AhetRuB6FS0ASg8DKocVMQArXo3A9ykxAAAAAAAAATkBCYOXQIltOQClcj8L1KE9AXI/C9SjcTUB7FK5H4bpMQIcW2c73k0xAhetRuB4FSUCF61G4HgVJQIXrUbgeBUpAVg4tsp3vSkAAAAAAAABMQAAAAAAAAExAAAAAAAAATkAAAAAAAIBLQIXrUbgexUhADAIrhxbZR0B7FK5H4XpMQIXrUbgeBU5A46WbxCCwTkAnMQisHPpIQHsUrkfhuktA+FPjpZskTUBmZmZmZgZLQBSuR+F6VEtAcT0K16PwS0B7FK5H4VpJQI51cRsNeEtAcT0K16PwS0CF61G4HgVKQAAAAAAAAEpAEoPAyqHFTUDXo3A9CjdPQJqZmZmZWUtAEoPAyqHFTEDjpZvEILBLQAAAAAAAgExA9ihcj8LVTUBCYOXQIltLQLTIdr6fGktAUrgehevRSUDjpZvEILBKQA==","dtype":"float64","shape":[134]},"champs":["Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Ashe","AurelionSol","Azir","Bard","Blitzcrank","Brand","Braum","Caitlyn","Camille","Cassiopeia","Chogath","Corki","Darius","Diana","DrMundo","Draven","Ekko","Elise","Evelynn","Ezreal","FiddleSticks","Fiora","Fizz","Galio","Gangplank","Garen","Gnar","Gragas","Graves","Hecarim","Heimerdinger","Illaoi","Irelia","Ivern","Janna","JarvanIV","Jax","Jayce","Jhin","Jinx","Kalista","Karma","Karthus","Kassadin","Katarina","Kayle","Kennen","Khazix","Kindred","Kled","KogMaw","Leblanc","LeeSin","Leona","Lissandra","Lucian","Lulu","Lux","Malphite","Malzahar","Maokai","MasterYi","MissFortune","MonkeyKing","Mordekaiser","Morgana","Nami","Nasus","Nautilus","Nidalee","Nocturne","Nunu","Olaf","Orianna","Pantheon","Poppy","Quinn","Rammus","RekSai","Renekton","Rengar","Riven","Rumble","Ryze","Sejuani","Shaco","Shen","Shyvana","Singed","Sion","Sivir","Skarner","Sona","Soraka","Swain","Syndra","TahmKench","Taliyah","Talon","Taric","Teemo","Thresh","Tristana","Trundle","Tryndamere","TwistedFate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar","Velkoz","Vi","Viktor","Vladimir","Volibear","Warwick","Xerath","XinZhao","Yasuo","Yorick","Zac","Zed","Ziggs","Zilean","Zyra"]},"selected":{"id":"517630c8-868c-42e0-ba42-d3f92507de8e","type":"Selection"},"selection_policy":{"id":"ebf5d150-8572-4490-b838-b0186c16282b","type":"UnionRenderers"}},"id":"a68133db-1c36-4022-9fba-3a8b85c45bcf","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"bd041e57-ebb9-4009-bb2b-2d3f100a7ac2","type":"BoxAnnotation"}},"id":"c99fa783-8c0b-46f0-a2f3-2c27c7c69121","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.5},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"armor"},"y":{"field":"attack_damage"}},"id":"7fe30d48-13e4-49fe-9295-89435f1c8186","type":"Circle"},{"attributes":{"axis_label":"Armor","formatter":{"id":"0befad95-51bb-41fe-a8db-1988710956c9","type":"BasicTickFormatter"},"plot":{"id":"824eff97-a3e9-478d-a027-7f4a83648614","subtype":"Figure","type":"Plot"},"ticker":{"id":"68480e0d-c262-4a8f-80d6-bc62ca956f64","type":"BasicTicker"}},"id":"ba0fc93e-8275-4073-ad43-e02c01250c4d","type":"LinearAxis"},{"attributes":{},"id":"081cf5aa-7d7a-4c62-a3d1-0bdc5d11a1bf","type":"SaveTool"},{"attributes":{},"id":"97ae2f7b-aafb-4b04-84f3-1dfe4a8a2128","type":"PanTool"},{"attributes":{},"id":"68480e0d-c262-4a8f-80d6-bc62ca956f64","type":"BasicTicker"},{"attributes":{"source":{"id":"a68133db-1c36-4022-9fba-3a8b85c45bcf","type":"ColumnDataSource"}},"id":"f523c3c6-c195-4005-8403-0d16716a553e","type":"CDSView"},{"attributes":{"data_source":{"id":"a68133db-1c36-4022-9fba-3a8b85c45bcf","type":"ColumnDataSource"},"glyph":{"id":"7fe30d48-13e4-49fe-9295-89435f1c8186","type":"Circle"},"hover_glyph":{"id":"0f661b70-6854-42c5-b055-3e090d0117c1","type":"Circle"},"muted_glyph":null,"nonselection_glyph":{"id":"d734f905-3e1f-44ef-b293-a6818623c637","type":"Circle"},"selection_glyph":null,"view":{"id":"f523c3c6-c195-4005-8403-0d16716a553e","type":"CDSView"}},"id":"faea18c5-4945-4679-a94b-a1e41cfbe82d","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"bd041e57-ebb9-4009-bb2b-2d3f100a7ac2","type":"BoxAnnotation"},{"attributes":{"callback":null,"renderers":"auto","tooltips":[["champion","@champs"],["armor","@armor"],["atk dmg","@attack_damage"]]},"id":"019a6fac-770c-404a-b8bd-7615d50a897a","type":"HoverTool"},{"attributes":{"axis_label":"Attack Damage","formatter":{"id":"1acaa12b-7a4e-4814-a2d8-57049d5ca8a9","type":"BasicTickFormatter"},"plot":{"id":"824eff97-a3e9-478d-a027-7f4a83648614","subtype":"Figure","type":"Plot"},"ticker":{"id":"e5f8607b-6eed-4f60-bd18-c59b27109dae","type":"BasicTicker"}},"id":"02615aa1-fd6b-4b04-93ed-dd11df055b66","type":"LinearAxis"},{"attributes":{},"id":"bb98c16f-5b2b-4c24-a9bc-1462f4777241","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"armor"},"y":{"field":"attack_damage"}},"id":"d734f905-3e1f-44ef-b293-a6818623c637","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"royalblue"},"line_alpha":{"value":0.8},"line_color":{"value":"royalblue"},"size":{"units":"screen","value":10},"x":{"field":"armor"},"y":{"field":"attack_damage"}},"id":"0f661b70-6854-42c5-b055-3e090d0117c1","type":"Circle"},{"attributes":{},"id":"517630c8-868c-42e0-ba42-d3f92507de8e","type":"Selection"},{"attributes":{"callback":null},"id":"ecba5f23-4117-4aaf-bf38-003d3e390354","type":"DataRange1d"},{"attributes":{},"id":"e5f8607b-6eed-4f60-bd18-c59b27109dae","type":"BasicTicker"},{"attributes":{"plot":null,"text":"Champion Armor and Attack Damage"},"id":"a1e15a4b-08c3-4218-9a92-5e649d46f388","type":"Title"}],"root_ids":["824eff97-a3e9-478d-a027-7f4a83648614"]},"title":"Bokeh Application","version":"0.13.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('62ec744a-8bc2-4c28-bcb5-55d99862fcd2').textContent;
+                  var render_items = [{"docid":"27b701de-00f9-4d12-8bdc-4784275f6f48","roots":{"824eff97-a3e9-478d-a027-7f4a83648614":"5b84f541-9c90-4811-a551-94a78b74aef4"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
