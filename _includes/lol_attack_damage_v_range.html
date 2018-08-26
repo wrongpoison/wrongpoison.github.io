@@ -1,0 +1,83 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>LoL attack damage vs range</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            <div class="bk-root" id="f3dea19f-38ef-444e-833d-1499801850ce"></div>
+          
+        
+      
+      
+        <script type="application/json" id="3bdda5b5-e58d-4f2d-8c3e-68c268ff1be9">
+          {"4dfb7e2b-98d1-4eda-a5c8-1aa6565ece02":{"roots":{"references":[{"attributes":{"axis_label":"Attack Damage","formatter":{"id":"31383d57-b489-400d-9fd5-85b9b6f51323","type":"BasicTickFormatter"},"plot":{"id":"095bab12-430f-4c30-8f80-fc4cd5d1b842","subtype":"Figure","type":"Plot"},"ticker":{"id":"fd22ceca-264e-4156-8050-b69702c10600","type":"BasicTicker"}},"id":"e66d5b16-434e-4c22-8263-22a4c4886264","type":"LinearAxis"},{"attributes":{},"id":"c8a00e62-2a37-44c5-bf6c-7f7efc8210aa","type":"BasicTicker"},{"attributes":{"plot":{"id":"095bab12-430f-4c30-8f80-fc4cd5d1b842","subtype":"Figure","type":"Plot"},"ticker":{"id":"fd22ceca-264e-4156-8050-b69702c10600","type":"BasicTicker"}},"id":"a460bdec-66f0-4502-8671-8c6a5f762666","type":"Grid"},{"attributes":{"source":{"id":"274e0a71-8365-4b5e-b29e-d8f01730c23e","type":"ColumnDataSource"}},"id":"4ddd32e7-8ee5-45c4-ab1b-71687c8de2c3","type":"CDSView"},{"attributes":{"plot":null,"text":"Champion Attack Damage and Attack Range"},"id":"8ff76c2d-77df-4b5a-99a8-e7afba58a4dd","type":"Title"},{"attributes":{"callback":null,"renderers":"auto","tooltips":[["champion","@champs"],["atk dmg","@attack_damage"],["atk range","@attack_range"]]},"id":"239296a6-039a-42b9-9f57-73c46d50e898","type":"HoverTool"},{"attributes":{},"id":"cdd70754-4e95-405e-b46c-be1aad0134bc","type":"UnionRenderers"},{"attributes":{},"id":"28845f15-db0c-4d54-ab21-8a28083fb6f7","type":"HelpTool"},{"attributes":{"data_source":{"id":"274e0a71-8365-4b5e-b29e-d8f01730c23e","type":"ColumnDataSource"},"glyph":{"id":"af7c47bf-c11f-4224-88d5-2f5b62addb39","type":"Circle"},"hover_glyph":{"id":"320601b5-8d59-4f9d-a8e8-7fc5a71c34bb","type":"Circle"},"muted_glyph":null,"nonselection_glyph":{"id":"f9de3070-7a3f-442a-ae23-e6cf06b970c2","type":"Circle"},"selection_glyph":null,"view":{"id":"4ddd32e7-8ee5-45c4-ab1b-71687c8de2c3","type":"CDSView"}},"id":"c3fd5cb4-5362-478c-aad1-0a12e4cc85d0","type":"GlyphRenderer"},{"attributes":{},"id":"96209dd4-d348-4cc7-a24f-d8da56cf9063","type":"ResetTool"},{"attributes":{},"id":"b2f076ee-18d9-4d36-b250-e461cbd1e603","type":"LinearScale"},{"attributes":{},"id":"3d7d86d0-816a-47b9-9139-fb811ccf3806","type":"Selection"},{"attributes":{},"id":"f3ebd32d-5f85-499f-bddd-0d099578a103","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.5},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"attack_damage"},"y":{"field":"attack_range"}},"id":"af7c47bf-c11f-4224-88d5-2f5b62addb39","type":"Circle"},{"attributes":{},"id":"31383d57-b489-400d-9fd5-85b9b6f51323","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"royalblue"},"line_alpha":{"value":0.8},"line_color":{"value":"royalblue"},"size":{"units":"screen","value":10},"x":{"field":"attack_damage"},"y":{"field":"attack_range"}},"id":"320601b5-8d59-4f9d-a8e8-7fc5a71c34bb","type":"Circle"},{"attributes":{"dimension":1,"plot":{"id":"095bab12-430f-4c30-8f80-fc4cd5d1b842","subtype":"Figure","type":"Plot"},"ticker":{"id":"c8a00e62-2a37-44c5-bf6c-7f7efc8210aa","type":"BasicTicker"}},"id":"a16cd758-d7bb-4d4c-ba9c-c06dd79bb04a","type":"Grid"},{"attributes":{"callback":null},"id":"cad3475a-721a-4290-ac08-92929dac77a1","type":"DataRange1d"},{"attributes":{},"id":"3545c208-319e-4bf9-8aa8-8f2aa1e90632","type":"WheelZoomTool"},{"attributes":{},"id":"7445d7bd-5f00-4fa5-a135-de7b566c518c","type":"LinearScale"},{"attributes":{"overlay":{"id":"1e35b7ef-4974-4744-b925-9828fdfcb523","type":"BoxAnnotation"}},"id":"f4fa7361-68e7-4a63-b063-ce907f81c2de","type":"BoxZoomTool"},{"attributes":{"axis_label":"Attack Range","formatter":{"id":"f3ebd32d-5f85-499f-bddd-0d099578a103","type":"BasicTickFormatter"},"plot":{"id":"095bab12-430f-4c30-8f80-fc4cd5d1b842","subtype":"Figure","type":"Plot"},"ticker":{"id":"c8a00e62-2a37-44c5-bf6c-7f7efc8210aa","type":"BasicTicker"}},"id":"b211d052-dd17-43c8-b46c-799e4e9cfbaa","type":"LinearAxis"},{"attributes":{"below":[{"id":"e66d5b16-434e-4c22-8263-22a4c4886264","type":"LinearAxis"}],"left":[{"id":"b211d052-dd17-43c8-b46c-799e4e9cfbaa","type":"LinearAxis"}],"renderers":[{"id":"e66d5b16-434e-4c22-8263-22a4c4886264","type":"LinearAxis"},{"id":"a460bdec-66f0-4502-8671-8c6a5f762666","type":"Grid"},{"id":"b211d052-dd17-43c8-b46c-799e4e9cfbaa","type":"LinearAxis"},{"id":"a16cd758-d7bb-4d4c-ba9c-c06dd79bb04a","type":"Grid"},{"id":"1e35b7ef-4974-4744-b925-9828fdfcb523","type":"BoxAnnotation"},{"id":"c3fd5cb4-5362-478c-aad1-0a12e4cc85d0","type":"GlyphRenderer"}],"title":{"id":"8ff76c2d-77df-4b5a-99a8-e7afba58a4dd","type":"Title"},"toolbar":{"id":"ad006e4f-5ac3-4b3f-a965-3d66d210293e","type":"Toolbar"},"x_range":{"id":"9122d8f3-dbf2-4021-b347-d07a2b74eaa8","type":"DataRange1d"},"x_scale":{"id":"7445d7bd-5f00-4fa5-a135-de7b566c518c","type":"LinearScale"},"y_range":{"id":"cad3475a-721a-4290-ac08-92929dac77a1","type":"DataRange1d"},"y_scale":{"id":"b2f076ee-18d9-4d36-b250-e461cbd1e603","type":"LinearScale"}},"id":"095bab12-430f-4c30-8f80-fc4cd5d1b842","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"523dbdda-abe1-41bf-9407-60fe0b88bfbc","type":"PanTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"attack_damage"},"y":{"field":"attack_range"}},"id":"f9de3070-7a3f-442a-ae23-e6cf06b970c2","type":"Circle"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1e35b7ef-4974-4744-b925-9828fdfcb523","type":"BoxAnnotation"},{"attributes":{},"id":"fd22ceca-264e-4156-8050-b69702c10600","type":"BasicTicker"},{"attributes":{},"id":"ef58f9e0-3505-4fbd-a15f-87644661e7dd","type":"SaveTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"523dbdda-abe1-41bf-9407-60fe0b88bfbc","type":"PanTool"},{"id":"3545c208-319e-4bf9-8aa8-8f2aa1e90632","type":"WheelZoomTool"},{"id":"f4fa7361-68e7-4a63-b063-ce907f81c2de","type":"BoxZoomTool"},{"id":"ef58f9e0-3505-4fbd-a15f-87644661e7dd","type":"SaveTool"},{"id":"96209dd4-d348-4cc7-a24f-d8da56cf9063","type":"ResetTool"},{"id":"28845f15-db0c-4d54-ab21-8a28083fb6f7","type":"HelpTool"},{"id":"239296a6-039a-42b9-9f57-73c46d50e898","type":"HoverTool"}]},"id":"ad006e4f-5ac3-4b3f-a965-3d66d210293e","type":"Toolbar"},{"attributes":{"callback":null},"id":"9122d8f3-dbf2-4021-b347-d07a2b74eaa8","type":"DataRange1d"},{"attributes":{"callback":null,"data":{"attack_damage":{"__ndarray__":"46WbxCAwTkCF61G4HoVKQOOlm8QgME1A5x2n6EiOTkD+1HjpJrFKQOOlm8QgsElAFK5H4Xo0SUAbL90kBkFMQAAAAAAAgExAAAAAAAAASkAAAAAAAABKQIXrUbgexU5AhetRuB6FTEDjpZvEILBLQBSuR+F61EpAAAAAAAAAT0AAAAAAAIBKQIcW2c73k05AAAAAAAAATEAAAAAAAABMQIXrUbgehUpAw/UoXI+iTkBmZmZmZuZLQAAAAAAAgEtAhetRuB5FSUBxPQrXo/BKQBSuR+F61EtArkfhehQuSEAAAAAAAABOQIXrUbgeBU1AXI/C9Sj8TkAAAAAAAABMQHE9Ctej8ExAAAAAAACASUBxPQrXo7BOQArXo3A9ak5AAAAAAAAATUD4U+Olm8RLQAAAAAAAAE5AEoPAyqHFTkAAAAAAAABJQO58PzVe+klAQmDl0CLbS0Bcj8L1KPxOQHE9CtejMElAAAAAAACASkB7FK5H4TpNQAAAAAAAgE9AEoPAyqHFSkAUrkfhetRGQJMYBFYObU1AAAAAAAAATUAAAAAAAIBJQBKDwMqhRUlAexSuR+GaS0AAAAAAAABLQAAAAAAAgEtAexSuR+G6TEBxPQrXo3BLQEoMAiuHlk5AhetRuB4FTkD4U+Olm0RJQHsUrkfhukxAyXa+nxovR0ASg8DKocVKQFyPwvUo/E5AAAAAAACAS0ASg8DKocVPQIXrUbgeBU5AAAAAAAAAR0DjpZvEIPBNQAAAAAAAgE5AexSuR+G6S0C0yHa+n5pJQNejcD0Kl01AEoPAyqHFTEAAAAAAAIBKQLTIdr6fmk1AAAAAAACATUA9CtejcP1NQMl2vp8aL0RA8KfGSzfJS0AAAAAAAABMQHsUrkfhOktAcT0K16PwS0Cq8dJNYtBLQESLbOf7KU1AAAAAAAAATkCF61G4HgVMQPhT46WbhE5AhetRuB6FS0ASg8DKocVMQArXo3A9ykxAAAAAAAAATkBCYOXQIltOQClcj8L1KE9AXI/C9SjcTUB7FK5H4bpMQIcW2c73k0xAhetRuB4FSUCF61G4HgVJQIXrUbgeBUpAVg4tsp3vSkAAAAAAAABMQAAAAAAAAExAAAAAAAAATkAAAAAAAIBLQIXrUbgexUhADAIrhxbZR0B7FK5H4XpMQIXrUbgeBU5A46WbxCCwTkAnMQisHPpIQHsUrkfhuktA+FPjpZskTUBmZmZmZgZLQBSuR+F6VEtAcT0K16PwS0B7FK5H4VpJQI51cRsNeEtAcT0K16PwS0CF61G4HgVKQAAAAAAAAEpAEoPAyqHFTUDXo3A9CjdPQJqZmZmZWUtAEoPAyqHFTEDjpZvEILBLQAAAAAAAgExA9ihcj8LVTUBCYOXQIltLQLTIdr6fGktAUrgehevRSUDjpZvEILBKQA==","dtype":"float64","shape":[134]},"attack_range":{"__ndarray__":"AAAAAADAYkAAAAAAADCBQAAAAAAAQF9AAAAAAABAX0AAAAAAAEBfQAAAAAAAwIJAAAAAAAD4gUAAAAAAAMCCQAAAAAAAMIFAAAAAAABogEAAAAAAAEB/QAAAAAAAQF9AAAAAAAAwgUAAAAAAAEBfQAAAAAAAUIRAAAAAAABAX0AAAAAAADCBQAAAAAAAQF9AAAAAAAAwgUAAAAAAAOBlQAAAAAAAwGJAAAAAAABAX0AAAAAAADCBQAAAAAAAQF9AAAAAAAAwgUAAAAAAAEBfQAAAAAAAMIFAAAAAAAAAfkAAAAAAAMBiQAAAAAAA4GVAAAAAAABAX0AAAAAAAEBfQAAAAAAA4GVAAAAAAADgZUAAAAAAAEBfQAAAAAAAkHpAAAAAAADgZUAAAAAAADCBQAAAAAAAQF9AAAAAAABAX0AAAAAAAEBfQAAAAAAAsH1AAAAAAADgZUAAAAAAAEBfQAAAAAAAQF9AAAAAAAAwgUAAAAAAAGiAQAAAAAAAMIFAAAAAAABogEAAAAAAACB8QAAAAAAAwGJAAAAAAABAX0AAAAAAAEBfQAAAAAAAMIFAAAAAAABAX0AAAAAAAEB/QAAAAAAAQF9AAAAAAABAf0AAAAAAAGiAQAAAAAAAQF9AAAAAAABAX0AAAAAAADCBQAAAAAAAQH9AAAAAAAAwgUAAAAAAADCBQAAAAAAAQF9AAAAAAABAf0AAAAAAAEBfQAAAAAAAQF9AAAAAAAAwgUAAAAAAAOBlQAAAAAAA4GVAAAAAAAAgfEAAAAAAADCBQAAAAAAAQF9AAAAAAADgZUAAAAAAAGiAQAAAAAAAQF9AAAAAAABAX0AAAAAAAEBfQAAAAAAAaIBAAAAAAADAYkAAAAAAAEBfQAAAAAAAaIBAAAAAAABAX0AAAAAAAOBlQAAAAAAAQF9AAAAAAABAX0AAAAAAAEBfQAAAAAAAQF9AAAAAAAAwgUAAAAAAAEBfQAAAAAAAQF9AAAAAAABAX0AAAAAAAEBfQAAAAAAAQF9AAAAAAADgZUAAAAAAAEB/QAAAAAAAQF9AAAAAAAAwgUAAAAAAADCBQAAAAAAAQH9AAAAAAAAwgUAAAAAAAOBlQAAAAAAAaIBAAAAAAABAX0AAAAAAAMBiQAAAAAAAQH9AAAAAAAAgfEAAAAAAADCBQAAAAAAA4GVAAAAAAABAX0AAAAAAAGiAQAAAAAAAMIFAAAAAAABAX0AAAAAAAJB6QAAAAAAA+IFAAAAAAAAwgUAAAAAAAGiAQAAAAAAAaIBAAAAAAABAX0AAAAAAAGiAQAAAAAAAIHxAAAAAAABAX0AAAAAAAEBfQAAAAAAAaIBAAAAAAADgZUAAAAAAAOBlQAAAAAAA4GVAAAAAAADgZUAAAAAAAEBfQAAAAAAAMIFAAAAAAAAwgUAAAAAAAPiBQA==","dtype":"float64","shape":[134]},"champs":["Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Ashe","AurelionSol","Azir","Bard","Blitzcrank","Brand","Braum","Caitlyn","Camille","Cassiopeia","Chogath","Corki","Darius","Diana","DrMundo","Draven","Ekko","Elise","Evelynn","Ezreal","FiddleSticks","Fiora","Fizz","Galio","Gangplank","Garen","Gnar","Gragas","Graves","Hecarim","Heimerdinger","Illaoi","Irelia","Ivern","Janna","JarvanIV","Jax","Jayce","Jhin","Jinx","Kalista","Karma","Karthus","Kassadin","Katarina","Kayle","Kennen","Khazix","Kindred","Kled","KogMaw","Leblanc","LeeSin","Leona","Lissandra","Lucian","Lulu","Lux","Malphite","Malzahar","Maokai","MasterYi","MissFortune","MonkeyKing","Mordekaiser","Morgana","Nami","Nasus","Nautilus","Nidalee","Nocturne","Nunu","Olaf","Orianna","Pantheon","Poppy","Quinn","Rammus","RekSai","Renekton","Rengar","Riven","Rumble","Ryze","Sejuani","Shaco","Shen","Shyvana","Singed","Sion","Sivir","Skarner","Sona","Soraka","Swain","Syndra","TahmKench","Taliyah","Talon","Taric","Teemo","Thresh","Tristana","Trundle","Tryndamere","TwistedFate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar","Velkoz","Vi","Viktor","Vladimir","Volibear","Warwick","Xerath","XinZhao","Yasuo","Yorick","Zac","Zed","Ziggs","Zilean","Zyra"]},"selected":{"id":"3d7d86d0-816a-47b9-9139-fb811ccf3806","type":"Selection"},"selection_policy":{"id":"cdd70754-4e95-405e-b46c-be1aad0134bc","type":"UnionRenderers"}},"id":"274e0a71-8365-4b5e-b29e-d8f01730c23e","type":"ColumnDataSource"}],"root_ids":["095bab12-430f-4c30-8f80-fc4cd5d1b842"]},"title":"Bokeh Application","version":"0.13.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3bdda5b5-e58d-4f2d-8c3e-68c268ff1be9').textContent;
+                  var render_items = [{"docid":"4dfb7e2b-98d1-4eda-a5c8-1aa6565ece02","roots":{"095bab12-430f-4c30-8f80-fc4cd5d1b842":"f3dea19f-38ef-444e-833d-1499801850ce"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
