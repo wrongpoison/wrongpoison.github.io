@@ -7,4 +7,4 @@ categories: fiction
 
 Sometimes, at a moment of uncertainty, she would pause and take off her glasses. She might wipe them, or clip them into her shirt, but that wasn't the point. The point was that she was so damn near-sighted that by taking off the glasses she could imagine herself alone. The faces fuzzed together and disappeared into a single, fleshy morass. Thwarted, her adrenal glands would relax; her heart, regain composure; and the embarrassing tomato soup stain in her cheeks would dissipate. Alone, surrounded by all of them, she could go on.
 
-![I think I need these]({{ site.url }}/assets/gold_glasses.jpeg){: .center-image }
+![I think I need these]({{ site.url }}/assets/gold_glasses.jpeg "I think I need these"){: .center-image}
