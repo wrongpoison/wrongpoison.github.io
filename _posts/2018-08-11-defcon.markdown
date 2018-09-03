@@ -7,7 +7,7 @@ categories: defcon hacking
 
 I recently went to [DefCon][defcon] and was thoroughly overwhelmed with all the people and content. In an effort to capture a portion of the awesomeness there and alleviate my massive FOMO, I've tried to collect some of the tools and info presented.
 
-![DefCon felt weirdly like this]({{ site.url }}/assets/modern-workshop4.jpg "DefCon sorta felt like this"){: .center-image }
+![DefCon felt weirdly like this]({{ site.url }}/assets/modern-workshop4.jpg){: .center-image }
 
 * [ADRecon][adrecon]: extracts Active Directory information in a format that can be formatted in excel; uses RSAT (Remote Server Administration Tools)
 * [Angad][angad] : malware detection framework using multi-dimensional visualization (unfortunately, the documentation seems to be a bit sparse)
