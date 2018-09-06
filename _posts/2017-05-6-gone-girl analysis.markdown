@@ -1,9 +1,20 @@
 ---
 layout: post
-title:  "Gone Girl"
+title:  ""In Defense of My Favorite ~Villains~ Characters""
 date:   2017-05-6 21:30:13 -0600
-categories: gone girl, movies, strong female protagonist
+categories: strong female protagonist, movies, GoT, Gone Girl
 ---
+What do Hela (*Thor: Ragnarok*), Cersei Lannister (*Game of Thrones* and *A Song of Ice and Fire*), Amy Dunne (*Gone Girl*), and Artemisia (*300: Rise of An Empire*--wait, wait! I know it's a terrible movie, but hear me out.) all have in common? 1. They are some of my favorite characters. 2. For some reason, they all end up being the villains in their stories. I don't think this characterization is quite right. These characters are bound by certain rules within their fictitional worlds, and through a sort of fictional cultural relativism, they prove to be clever and compelling characters who are at least as flawed and morally problematic as their peers. I'm also convinced I'm not *that* terrible of a person, so I'd like to justify my own tastes as well. I may be rooting for villains, but only because you give your heroes free passes [insert witty metaphor here].
+
+Let's start with Cersei.
+(insert staircase at dubrovnik here)
+
+Hela
+
+Amy Dunne
+
+Artemisia
+
 *Gone Girl* is, without a doubt, one of my favorite movies. I find the protagonist, Amy, uncomfortably relatable. But wait! Hear me out before you run off, far away from the crazy woman. I think the film draws on themes that are exceptionally relevant to human identity, regardless of our individual capacities for violence.
 
 I think Amy struggles with very real and complicated problems of identity. She never gets to be the person she wants to be and the role she plays is always crafted to suit someone else's desires. She's down-to-earth and relaxed for Nick and elegant and cosmopolitan for Desi. Her parents even made "edits" to their daughter in their Amazing Amy books. This comes up most strikingly when the movie jumps to follow Amy driving away from her husband and she describes how girlfriends fit into a man's specific set of desires, as well as the cool girl speech. Away from all her relationships, she eats what she wants--a habit which later mortifies Desi when she eats extra crème brulee. He buys her hair dye and makeup, trying to make her into the version of her he imagines and desires her to be.
