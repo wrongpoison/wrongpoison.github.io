@@ -5,7 +5,7 @@ date:   2018-08-26 9:16:00 -0500
 categories: LeagueOfLegends dataviz
 ---
 
-Data analysis of different League of Legends Champions' capabilities. 
+The first in a series of data analysis posts of different League of Legends Champions' capabilities. 
 
 The data visualized here is taken from [Data Dragon][data dragon] on August 26.
 
