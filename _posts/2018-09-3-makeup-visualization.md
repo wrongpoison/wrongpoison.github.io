@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  Tracking Conversations about Makeup on Reddit
-date:   2018-09-3 1:04:00 -0600
+date:   2018-09-12 1:04:00 -0600
 categories: dataviz makeup nltk
 ---
 
+This is the first part of an analysis on discussion of makeup brands on Reddit. Here is a preliminary analysis of my findings. Later, I hope to apply some sentiment analysis to the collected scrapings.
+
 I am a bit of a makeup junkie. Well, I've never mainlined mascara, so maybe more of a makeup addict. Sort of like the folks you will find at [r/MakeupAddiction][rMakeupAddiction], a subreddit for people interested in cosmetics, their application, improving makeup skills, and, occasionally, a bit of beauty industry drama (though most of that is relegated to [r/MUAConspiracy][rMUAConspiracy] and [r/BeautyGuruDiscussion][rBeautyGuruDiscussion]).
 
-![Some YSL for good taste]({{ site.url }}/assets/ysl-lipsticks.jpeg "Some YSL for good taste"){: .center-image }
+![Some YSL for good taste]({{ site.url }}/assets/ysl-lipsticks.jpeg "Some YSL for good taste"){: .cropped-image }
 
-Since February 2018, I've been scraping r/MakeupAddiction every night to collect thread and comment data. My tentative goals were to see which brands were frequently talked about, both relative to one another and over a period of time. My stretch goal was to eventually try my hand at some sentiment analysis and see if redditor sentiments aligned with events that seemed to resonate throughout the beauty community, e.g., Rihannah's fantastically inclusive foundation selection (yay) or Tarte's rather pale release of Shape Tape Foundation (nay). While I have been scraping data since February, I have made several changes to the collected data's format. As a result, I've selected a smaller snapshot of consistently collected data from the beginning of June to the end of August. 
+Since February 2018, I've been scraping r/MakeupAddiction every night to collect thread and comment data. My tentative goals were to see which brands were frequently talked about, both relative to one another and over a period of time. My stretch goal was to eventually try my hand at some sentiment analysis and see if redditor sentiments aligned with events that seemed to resonate throughout the beauty community, e.g., Rihannah's fantastically inclusive foundation selection (yay) or Tarte's rather pale release of Shape Tape Foundation (nay). While I have been scraping data since February, I have made several changes to the collected data's format. As a result, I've selected a smaller snapshot of consistently collected data from the beginning of June to mid-September.
 
 Here's what I've found: 
 
@@ -70,7 +72,7 @@ Nyx doesn't seem to have any major spikes, but is consistently mentioned in the 
 
 
 #### Urban Decay
-- [Born to Run collection][born-to-run] announced June 6, in stores June 24
+- Born to Run collection announced June 6, in stores June 24
 - Announcement of Elements Eyeshadow Palette (to be released 9/10)
 ![Urban Decay mentions]({{ site.url }}/assets/makeup_graphs/urbandecay-mentions-june-august.png "UD mentions"){: .center-image }
 
@@ -89,9 +91,11 @@ Vault Drama: Jaclyn's Morphe collaboration collection was announced June 11. How
 ### Other Notes
 While it appears that spikes in brand discussion often coincide with new launches, this does not seem to be the rule. Conspiciously absent is Pat McGrath who had several releases during this time period. However, McGrath Labs never had more than 7 mentions on a given day. I would hypothesize that the nature of the r/MakeupAddiction has something to do with this. While redditors frequently post their excitement for upcoming or imminent releases, more often content revolves around FOTD (face of the day) and practicing makeup techniques. This means that redditors are more likely to talk about their HG (holy grail) products and those which make up their daily routines. While Pat McGrath's quality is frequently lauded, the luxury price puts it out of range for many consumers. The same logic can be applied to Natasha Denona, which also had a number of eyeshadow palette releases in this time, but very little discussion on this subreddit.
 
+Additionally, we have to recognize the limitations of simply counting words. Is greater frequency a good thing? Or can it allude to an outrageous event that sparks discussion and backlash? This is something I hope to address in future posts, with some work with sentiment analysis and topic modeling.
+
 ### Methodology
 
-I gathered my data with a nightly cron job using the Reddit API. The data was saved to a series of flat files. I used a series of trusty Jupyter notebooks to explore and parse the data, shaping and manipulating it with the usual suspects, Panadas and Numpy. NLTK did the heavy lifting with gram tokenization (read: counting word frequencies). And then I used MatPlotLib for preliminary visualizations and Bokeh for some fancier, interactive ones.
+I gathered my data with a nightly cron job using the Reddit API. The data was saved to a series of flat files. I used a series of trusty Jupyter notebooks to explore and parse the data, shaping and manipulating it with the usual suspects, Pandas and Numpy. NLTK did the heavy lifting with gram tokenization (that is, counting word frequencies). And then I used MatPlotLib for the visualizations. Ideally, I'd like to improve this work by creating interactive visualizations, but that proved a bit out-of-scope for the current time. I hope to use the same data sets to try some sentiment analysis at a later time.
 
 [rMakeupAddiction]:https://www.reddit.com/r_makeupaddiction/
 [rMUAConspiracy]:https://www.reddit.com/r_muaconspiracy/

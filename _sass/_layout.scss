@@ -125,3 +125,10 @@ footer {
 	margin: 10px auto;
     max-width: 90%;
 }
+.cropped-image{
+	// object-fit: cover;
+	max-width: 60%;
+	height: 500px;
+	display: block;
+	margin: 10px auto;
+}
