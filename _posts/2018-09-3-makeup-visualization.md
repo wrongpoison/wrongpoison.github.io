@@ -7,7 +7,7 @@ categories: dataviz makeup nltk
 
 This is the first part of an analysis on discussion of makeup brands on Reddit. Here is a preliminary analysis of my findings. Later, I hope to apply some sentiment analysis to the collected scrapings.
 
-I am a bit of a makeup junkie. Well, I've never mainlined mascara, so maybe more of a makeup addict. Sort of like the folks you will find at [r/MakeupAddiction][rMakeupAddiction], a subreddit for people interested in cosmetics, their application, improving makeup skills, and, occasionally, a bit of beauty industry drama (though most of that is relegated to [r/MUAConspiracy][rMUAConspiracy] and [r/BeautyGuruDiscussion][rBeautyGuruDiscussion]).
+I am a bit of a makeup junkie. Well, I've never mainlined mascara, so maybe more of a makeup addict. Sort of like the folks you will find at [r/MakeupAddiction][rMakeupAddiction], a subreddit for people interested in cosmetics, their application, improving makeup skills, and, occasionally, a bit of beauty industry drama (though most of that is relegated to [r/MUAConspiracy][rMUAConspiracy] and [r/BeautyGuruDiscussion][rBeautyGuruDiscussion] and [r/BeautyGuruChatter][rBeautyGuruChatter]).
 
 ![Some YSL for good taste]({{ site.url }}/assets/ysl-lipsticks.jpeg "Some YSL for good taste"){: .cropped-image }
 
@@ -97,8 +97,9 @@ Additionally, we have to recognize the limitations of simply counting words. Is 
 
 I gathered my data with a nightly cron job using the Reddit API. The data was saved to a series of flat files. I used a series of trusty Jupyter notebooks to explore and parse the data, shaping and manipulating it with the usual suspects, Pandas and Numpy. NLTK did the heavy lifting with gram tokenization (that is, counting word frequencies). And then I used MatPlotLib for the visualizations. Ideally, I'd like to improve this work by creating interactive visualizations, but that proved a bit out-of-scope for the current time. I hope to use the same data sets to try some sentiment analysis at a later time.
 
-[rMakeupAddiction]:https://www.reddit.com/r_makeupaddiction/
-[rMUAConspiracy]:https://www.reddit.com/r_muaconspiracy/
-[rBeautyGuruDiscussion]:https://www.reddit.com/r_beautygurudiscussion/
+[rMakeupAddiction]:https://www.reddit.com/r/MakeupAddiction/
+[rMUAConspiracy]:https://www.reddit.com/r/muaconspiracy/
+[rBeautyGuruDiscussion]:https://www.reddit.com/r/beautygurudiscussion/
+[rBeautyGuruChatter]:https://www.reddit.com/r/beautyguruchatter/
 [born-to-run]:https://www.instagram.com/p/BjstdMKDvhy/?taken-by=urbandecaycosmetics
 [kvd-antivax]:https://www.instagram.com/p/Bjvkm1gHPPb/?utm_source=ig_embed
