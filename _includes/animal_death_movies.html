@@ -1,0 +1,78 @@
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>animal deaths in movie genres</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            <div class="bk-root" id="ee914dee-f4f3-445c-b679-af5e5be9ea7c"></div>
+          
+        
+      
+      
+        <script type="application/json" id="07a5ebbd-cd97-4b0e-94cc-6732f580e9b3">
+          {"bde7dd88-0792-4378-8b2a-4e20bb5578fb":{"roots":{"references":[{"attributes":{"below":[{"id":"8ba07fdd-682b-46ae-9fb1-56468415731d","type":"CategoricalAxis"}],"left":[{"id":"c49cac21-97b5-41c8-8757-b7caecad6204","type":"LinearAxis"}],"plot_height":400,"renderers":[{"id":"8ba07fdd-682b-46ae-9fb1-56468415731d","type":"CategoricalAxis"},{"id":"647166db-e3eb-4f96-b99d-0748965b56ad","type":"Grid"},{"id":"c49cac21-97b5-41c8-8757-b7caecad6204","type":"LinearAxis"},{"id":"6b6dd655-9115-4c08-a520-38d9e80fc1f7","type":"Grid"},{"id":"9deb505c-639a-4b7b-8362-24bd30ec5b89","type":"BoxAnnotation"},{"id":"1336db9a-123c-4339-8707-0997a2145fe6","type":"GlyphRenderer"}],"title":{"id":"0cfdb22d-dcce-40b6-9597-137b95b22464","type":"Title"},"toolbar":{"id":"d61633ab-2b36-47fb-9cf3-6e84dfa749d3","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1d22b602-f5ca-4bc7-9bf5-31cd1e2a9898","type":"FactorRange"},"x_scale":{"id":"59e087dd-1bd3-4a94-8c16-553d1d31e670","type":"CategoricalScale"},"y_range":{"id":"c074b6cd-31f4-4d1a-b983-f7c918fe9a55","type":"DataRange1d"},"y_scale":{"id":"b063b7c6-8680-4321-b507-b3a544a169c7","type":"LinearScale"}},"id":"3f1fc39e-c6f9-4155-87b7-a520746fd545","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"85c97bcc-ad46-4916-b108-a93d8ce16087","type":"HelpTool"},{"attributes":{"overlay":{"id":"9deb505c-639a-4b7b-8362-24bd30ec5b89","type":"BoxAnnotation"}},"id":"38951beb-17b6-4bb0-86b8-50b737777b40","type":"BoxZoomTool"},{"attributes":{"formatter":{"id":"8b09896e-0913-4c59-921b-f43eccfd6e96","type":"BasicTickFormatter"},"plot":{"id":"3f1fc39e-c6f9-4155-87b7-a520746fd545","subtype":"Figure","type":"Plot"},"ticker":{"id":"39344669-b1d7-431b-9441-63cf67817ef8","type":"BasicTicker"}},"id":"c49cac21-97b5-41c8-8757-b7caecad6204","type":"LinearAxis"},{"attributes":{},"id":"f4e7dd52-fb59-41fa-8d66-faaaf008bd6d","type":"Selection"},{"attributes":{},"id":"95ee2aa2-f129-4064-aec3-f01f78dfca6a","type":"UnionRenderers"},{"attributes":{"plot":null,"text":"Frequency of Animal Death By Movie Genre"},"id":"0cfdb22d-dcce-40b6-9597-137b95b22464","type":"Title"},{"attributes":{"callback":null,"factors":["Drama","Horror","Thriller","Comedy","Action","Adventure","Science Fiction","Family","Animation","Fantasy","Mystery","Crime","Romance","War","Documentary","History","TV Movie","Western","Music"]},"id":"1d22b602-f5ca-4bc7-9bf5-31cd1e2a9898","type":"FactorRange"},{"attributes":{"callback":null,"renderers":"auto","show_arrow":false,"tooltips":[["Genre","@x"],["Frequency","@top"]]},"id":"94fe5a74-94d4-4aec-abdd-7727cbe7b871","type":"HoverTool"},{"attributes":{},"id":"b063b7c6-8680-4321-b507-b3a544a169c7","type":"LinearScale"},{"attributes":{"data_source":{"id":"d76ce919-f9ee-4e19-92fc-2c226edc018b","type":"ColumnDataSource"},"glyph":{"id":"74d2d104-ef51-47e8-8bd1-14ec13238944","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"0d5db150-f1ec-4109-b91c-17db291ddc2b","type":"VBar"},"selection_glyph":null,"view":{"id":"268ec465-719d-48b0-ad99-52d8978d821d","type":"CDSView"}},"id":"1336db9a-123c-4339-8707-0997a2145fe6","type":"GlyphRenderer"},{"attributes":{},"id":"6dce8bac-e077-4809-93f7-6ac8897eabd9","type":"CategoricalTickFormatter"},{"attributes":{},"id":"93f3051f-86a5-4c6f-91ff-b7b8cc47dd3d","type":"ResetTool"},{"attributes":{},"id":"7d65d802-bd51-4b52-b637-8238bd96ca98","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"0d5db150-f1ec-4109-b91c-17db291ddc2b","type":"VBar"},{"attributes":{"plot":{"id":"3f1fc39e-c6f9-4155-87b7-a520746fd545","subtype":"Figure","type":"Plot"},"ticker":{"id":"7d65d802-bd51-4b52-b637-8238bd96ca98","type":"CategoricalTicker"}},"id":"647166db-e3eb-4f96-b99d-0748965b56ad","type":"Grid"},{"attributes":{"source":{"id":"d76ce919-f9ee-4e19-92fc-2c226edc018b","type":"ColumnDataSource"}},"id":"268ec465-719d-48b0-ad99-52d8978d821d","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"7ae01b57-5ed8-4c9e-9524-e0ab8512cdc9","type":"PanTool"},{"id":"463de79b-76bc-4ce3-a857-94ad5880e4e7","type":"WheelZoomTool"},{"id":"38951beb-17b6-4bb0-86b8-50b737777b40","type":"BoxZoomTool"},{"id":"bfde40d1-cf78-4496-ad91-440c8dabc1a0","type":"SaveTool"},{"id":"93f3051f-86a5-4c6f-91ff-b7b8cc47dd3d","type":"ResetTool"},{"id":"85c97bcc-ad46-4916-b108-a93d8ce16087","type":"HelpTool"},{"id":"94fe5a74-94d4-4aec-abdd-7727cbe7b871","type":"HoverTool"}]},"id":"d61633ab-2b36-47fb-9cf3-6e84dfa749d3","type":"Toolbar"},{"attributes":{"callback":null,"data":{"top":[711,536,504,448,306,252,238,226,162,162,158,154,148,62,53,44,43,41,33],"x":["Drama","Horror","Thriller","Comedy","Action","Adventure","Science Fiction","Family","Animation","Fantasy","Mystery","Crime","Romance","War","Documentary","History","TV Movie","Western","Music"]},"selected":{"id":"f4e7dd52-fb59-41fa-8d66-faaaf008bd6d","type":"Selection"},"selection_policy":{"id":"95ee2aa2-f129-4064-aec3-f01f78dfca6a","type":"UnionRenderers"}},"id":"d76ce919-f9ee-4e19-92fc-2c226edc018b","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"c074b6cd-31f4-4d1a-b983-f7c918fe9a55","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"9deb505c-639a-4b7b-8362-24bd30ec5b89","type":"BoxAnnotation"},{"attributes":{},"id":"39344669-b1d7-431b-9441-63cf67817ef8","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"3f1fc39e-c6f9-4155-87b7-a520746fd545","subtype":"Figure","type":"Plot"},"ticker":{"id":"39344669-b1d7-431b-9441-63cf67817ef8","type":"BasicTicker"}},"id":"6b6dd655-9115-4c08-a520-38d9e80fc1f7","type":"Grid"},{"attributes":{},"id":"463de79b-76bc-4ce3-a857-94ad5880e4e7","type":"WheelZoomTool"},{"attributes":{"formatter":{"id":"6dce8bac-e077-4809-93f7-6ac8897eabd9","type":"CategoricalTickFormatter"},"major_label_orientation":-45,"plot":{"id":"3f1fc39e-c6f9-4155-87b7-a520746fd545","subtype":"Figure","type":"Plot"},"ticker":{"id":"7d65d802-bd51-4b52-b637-8238bd96ca98","type":"CategoricalTicker"}},"id":"8ba07fdd-682b-46ae-9fb1-56468415731d","type":"CategoricalAxis"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"74d2d104-ef51-47e8-8bd1-14ec13238944","type":"VBar"},{"attributes":{},"id":"7ae01b57-5ed8-4c9e-9524-e0ab8512cdc9","type":"PanTool"},{"attributes":{},"id":"8b09896e-0913-4c59-921b-f43eccfd6e96","type":"BasicTickFormatter"},{"attributes":{},"id":"bfde40d1-cf78-4496-ad91-440c8dabc1a0","type":"SaveTool"},{"attributes":{},"id":"59e087dd-1bd3-4a94-8c16-553d1d31e670","type":"CategoricalScale"}],"root_ids":["3f1fc39e-c6f9-4155-87b7-a520746fd545"]},"title":"Bokeh Application","version":"0.13.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('07a5ebbd-cd97-4b0e-94cc-6732f580e9b3').textContent;
+                  var render_items = [{"docid":"bde7dd88-0792-4378-8b2a-4e20bb5578fb","roots":{"3f1fc39e-c6f9-4155-87b7-a520746fd545":"ee914dee-f4f3-445c-b679-af5e5be9ea7c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
