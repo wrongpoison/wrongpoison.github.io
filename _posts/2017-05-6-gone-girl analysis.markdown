@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""In Defense of My Favorite ~Villains~ Characters""
+title:  "In Defense of My Favorite ~Villains~ Characters"
 date:   2017-05-6 21:30:13 -0600
 categories: strong female protagonist, movies, GoT, Gone Girl
 ---

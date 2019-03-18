@@ -8,4 +8,4 @@ What do you do when you're only mediocre? When you're a mean person? When you're
 
 It might be nice to embrace the inner baddie and commit to be an antagonistic force in the world. Then, when inevitably I am usurped, embarrassed, and put down, I can feel better knowing that "good" has come out ahead.
 
-![I'm the newspaper, not the flowers]({{ site.url }}/assets/tulips-in-newspaper.jpg){: .center-image }
+![]({{ site.url }}/assets/tulips-in-newspaper.jpg"I'm the newspaper, not the flowers"){: .center-image }
