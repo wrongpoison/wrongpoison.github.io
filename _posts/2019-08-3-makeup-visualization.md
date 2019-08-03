@@ -14,23 +14,23 @@ Here's what I've found:
 ### The Top Fifteen
 
 The top most-often discussed brands on r/MakeupAddiction from June 2018 to August 2019 were: 
-| Rank | Brand | Total Mentions |
-|------|-------|----------------|
-|1 | Anastasia Beverly Hills | 4244|
-|2 | Mac | 3562|
-|3 | Urban Decay | 2977|
-|4 | Too Faced | 2817 |
-|5 | Morphe | 2765 |
-|6| Fenty | 2247 |
-|7| Tarte| 2035|
-|8|Nyx | 1941|
-|9|Kat von D|1905|
-|10|Huda | 1616|
-|11|Wet n Wild|1279|
-|12|Pat Mcgrath|1111|
-|13|Jeffree Star Cosmetics|1058|
-|14| Elf Cosmetics | 805|
-|15|Benefit|791|
+| Rank | Brand                   | Total Mentions |
+|------|-------------------------|----------------|
+| 1    | Anastasia Beverly Hills | 4244           |
+| 2    | Mac                     | 3562           |
+| 3    | Urban Decay             | 2977           |
+| 4    | Too Faced               | 2817           |
+| 5    | Morphe                  | 2765           |
+| 6    | Fenty                   | 2247           |
+| 7    | Tarte                   | 2035           |
+| 8    | Nyx                     | 1941           |
+| 9    | Kat von D               | 1905           |
+| 10   | Huda                    | 1616           |
+| 11   | Wet'n Wild              | 1279           |
+| 12   | Pat Mcgrath             | 1111           |
+| 13   | Jeffree Star Cosmetics  | 1058           |
+| 14   | Elf Cosmetics           | 805            |
+| 15   | Benefit                 | 791            |
 
 ![Top 15 most frequently mentioned makeup brands]({{ site.url }}/assets/makeup_graphs/top_fifteen_brands_sum.png "Top 15 most frequently mentioned makeup brands"){: .center-image }
 
