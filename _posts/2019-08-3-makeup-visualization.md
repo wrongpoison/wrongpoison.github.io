@@ -14,8 +14,10 @@ Here's what I've found:
 ### The Top Fifteen
 
 The top most-often discussed brands on r/MakeupAddiction from June 2018 to August 2019 were: 
+
+
 | Rank | Brand                   | Total Mentions |
-|------|-------------------------|----------------|
+|:-----|:----------------------- |---------------:|
 | 1    | Anastasia Beverly Hills | 4244           |
 | 2    | Mac                     | 3562           |
 | 3    | Urban Decay             | 2977           |

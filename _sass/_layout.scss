@@ -111,6 +111,20 @@ footer {
 	padding: 40px;
 }
 
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr{
+	border: 1px solid #999;
+}
+
+td, th{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .instatablestyle {
 	border-collapse: collapse;
 
